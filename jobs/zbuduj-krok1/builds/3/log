@@ -1,0 +1,10 @@
+Started by user [8mha:////4LYxus9Qh+KnJfJUaEfQQoRd1XGf2RYJ13pwubcJFWJ1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9xJTczDxDAA1fTarBAAAA[0mAdmin1
+Running as SYSTEM
+Building in workspace /home/student8/.jenkins/workspace/zbuduj-krok1
+[zbuduj-krok1] $ /bin/sh -xe /tmp/jenkins2181166631497772748.sh
++ echo tworze
+tworze
++ echo
+
+Triggering a new build of [8mha:////4K5O4qfBG4mP90NLr8gtby4ZpLoa4pTTHbu6tGCaDGy5AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2CoqrUktTiktIs3eyi/GwjfQCGeoh1ywAAAA==[0mprzetestuj-krok2
+Finished: SUCCESS

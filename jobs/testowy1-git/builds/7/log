@@ -1,0 +1,22 @@
+Uruchomione przez zegar
+Running as SYSTEM
+Building in workspace /home/student8/.jenkins/workspace/testowy1-git
+using credential 6d9ef02e-fedb-44d8-80e8-cb9f95daa65f
+ > git rev-parse --is-inside-work-tree # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/jacho63/test.git # timeout=10
+Fetching upstream changes from https://github.com/jacho63/test.git
+ > git --version # timeout=10
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/jacho63/test.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision cf028fcd36c1e9b5c935d61878df0a8fdcf390ab (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f cf028fcd36c1e9b5c935d61878df0a8fdcf390ab
+Commit message: "new-files"
+ > git rev-list --no-walk cf028fcd36c1e9b5c935d61878df0a8fdcf390ab # timeout=10
+[testowy1-git] $ /bin/sh -xe /tmp/jenkins4884637746596084630.sh
++ echo 'PObierz GIT'
+PObierz GIT
+Finished: SUCCESS

@@ -1,0 +1,8 @@
+Started by user [8mha:////4LYxus9Qh+KnJfJUaEfQQoRd1XGf2RYJ13pwubcJFWJ1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9xJTczDxDAA1fTarBAAAA[0mAdmin1
+Running as SYSTEM
+Building in workspace /home/student8/.jenkins/workspace/DATA
+[DATA] $ /bin/sh -xe /tmp/jenkins6674555578471259971.sh
+++ date
++ echo śro, 18 wrz 2019, 11:31:54 CEST
+śro, 18 wrz 2019, 11:31:54 CEST
+Finished: SUCCESS

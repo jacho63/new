@@ -1,0 +1,9 @@
+Started by upstream project "[8mha:////4K5O4qfBG4mP90NLr8gtby4ZpLoa4pTTHbu6tGCaDGy5AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2CoqrUktTiktIs3eyi/GwjfQCGeoh1ywAAAA==[0mprzetestuj-krok2" build number [8mha:////4FnGb9ayh79q2bci4EI8vBmEkC5GLr0Z31+zwbpXll3xAAAApB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYJ/az8JP2CoqrUktTiktIs3eyi/GwjfUMjAFFCvs3NAAAA[0m12
+originally caused by:
+ Started by user [8mha:////4LYxus9Qh+KnJfJUaEfQQoRd1XGf2RYJ13pwubcJFWJ1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9xJTczDxDAA1fTarBAAAA[0mAdmin1
+Running as SYSTEM
+Building in workspace /home/student8/.jenkins/workspace/uruchom-krok3
+[uruchom-krok3] $ /bin/sh -xe /tmp/jenkins1127961871990774913.sh
++ echo zrobione
+zrobione
+Finished: SUCCESS

@@ -1,0 +1,158 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<hudson>
+  <disabledAdministrativeMonitors/>
+  <version>2.195</version>
+  <installStateName>RUNNING</installStateName>
+  <numExecutors>2</numExecutors>
+  <mode>NORMAL</mode>
+  <useSecurity>true</useSecurity>
+  <authorizationStrategy class="hudson.security.FullControlOnceLoggedInAuthorizationStrategy">
+    <denyAnonymousReadAccess>true</denyAnonymousReadAccess>
+  </authorizationStrategy>
+  <securityRealm class="hudson.security.HudsonPrivateSecurityRealm">
+    <disableSignup>true</disableSignup>
+    <enableCaptcha>false</enableCaptcha>
+  </securityRealm>
+  <disableRememberMe>false</disableRememberMe>
+  <projectNamingStrategy class="jenkins.model.ProjectNamingStrategy$DefaultProjectNamingStrategy"/>
+  <workspaceDir>${JENKINS_HOME}/workspace/${ITEM_FULL_NAME}</workspaceDir>
+  <buildsDir>${ITEM_ROOTDIR}/builds</buildsDir>
+  <jdks/>
+  <viewsTabBar class="hudson.views.DefaultViewsTabBar"/>
+  <myViewsTabBar class="hudson.views.DefaultMyViewsTabBar"/>
+  <clouds/>
+  <scmCheckoutRetryCount>0</scmCheckoutRetryCount>
+  <views>
+    <hudson.model.AllView>
+      <owner class="hudson" reference="../../.."/>
+      <name>all</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.AllView>
+    <se.diabol.jenkins.pipeline.DeliveryPipelineView plugin="delivery-pipeline-plugin@1.4.0">
+      <owner class="hudson" reference="../../.."/>
+      <name>Moj_testowy_widok</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <componentSpecs>
+        <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
+          <name>przeplyw</name>
+          <firstJob>DATA</firstJob>
+          <lastJob></lastJob>
+          <showUpstream>false</showUpstream>
+        </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
+      </componentSpecs>
+      <noOfPipelines>3</noOfPipelines>
+      <showAggregatedPipeline>false</showAggregatedPipeline>
+      <noOfColumns>1</noOfColumns>
+      <sorting>none</sorting>
+      <showAvatars>false</showAvatars>
+      <updateInterval>2</updateInterval>
+      <showChanges>false</showChanges>
+      <allowManualTriggers>false</allowManualTriggers>
+      <showTotalBuildTime>false</showTotalBuildTime>
+      <allowRebuild>false</allowRebuild>
+      <allowPipelineStart>false</allowPipelineStart>
+      <allowAbort>false</allowAbort>
+      <showDescription>false</showDescription>
+      <showPromotions>false</showPromotions>
+      <showTestResults>false</showTestResults>
+      <showStaticAnalysisResults>false</showStaticAnalysisResults>
+      <linkRelative>false</linkRelative>
+      <pagingEnabled>false</pagingEnabled>
+      <showAbsoluteDateTime>false</showAbsoluteDateTime>
+      <showAggregatedChanges>false</showAggregatedChanges>
+      <aggregatedChangesGroupingPattern></aggregatedChangesGroupingPattern>
+      <maxNumberOfVisiblePipelines>-1</maxNumberOfVisiblePipelines>
+      <regexpFirstJobs/>
+      <linkToConsoleLog>false</linkToConsoleLog>
+      <description></description>
+    </se.diabol.jenkins.pipeline.DeliveryPipelineView>
+    <hudson.model.MyView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Moj_testowy</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+    </hudson.model.MyView>
+    <listView>
+      <owner class="hudson" reference="../../.."/>
+      <name>Moj_testowy2</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <jobNames>
+        <comparator class="hudson.util.CaseInsensitiveComparator"/>
+        <string>przetestuj-krok2</string>
+        <string>uruchom-krok3</string>
+        <string>zbuduj-krok1</string>
+      </jobNames>
+      <jobFilters/>
+      <columns>
+        <hudson.views.StatusColumn/>
+        <hudson.views.WeatherColumn/>
+        <hudson.views.JobColumn/>
+        <hudson.views.LastSuccessColumn/>
+        <hudson.views.LastFailureColumn/>
+        <hudson.views.LastDurationColumn/>
+        <hudson.views.BuildButtonColumn/>
+      </columns>
+      <recurse>false</recurse>
+    </listView>
+    <se.diabol.jenkins.pipeline.DeliveryPipelineView plugin="delivery-pipeline-plugin@1.4.0">
+      <owner class="hudson" reference="../../.."/>
+      <name>Moj_wizual</name>
+      <filterExecutors>false</filterExecutors>
+      <filterQueue>false</filterQueue>
+      <properties class="hudson.model.View$PropertyList"/>
+      <componentSpecs>
+        <se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
+          <name>Zbuduj</name>
+          <firstJob>zbuduj-krok1</firstJob>
+          <lastJob></lastJob>
+          <showUpstream>false</showUpstream>
+        </se.diabol.jenkins.pipeline.DeliveryPipelineView_-ComponentSpec>
+      </componentSpecs>
+      <noOfPipelines>3</noOfPipelines>
+      <showAggregatedPipeline>false</showAggregatedPipeline>
+      <noOfColumns>1</noOfColumns>
+      <sorting>none</sorting>
+      <showAvatars>false</showAvatars>
+      <updateInterval>2</updateInterval>
+      <showChanges>false</showChanges>
+      <allowManualTriggers>true</allowManualTriggers>
+      <showTotalBuildTime>false</showTotalBuildTime>
+      <allowRebuild>true</allowRebuild>
+      <allowPipelineStart>true</allowPipelineStart>
+      <allowAbort>false</allowAbort>
+      <showDescription>false</showDescription>
+      <showPromotions>false</showPromotions>
+      <showTestResults>false</showTestResults>
+      <showStaticAnalysisResults>false</showStaticAnalysisResults>
+      <linkRelative>false</linkRelative>
+      <pagingEnabled>false</pagingEnabled>
+      <showAbsoluteDateTime>false</showAbsoluteDateTime>
+      <showAggregatedChanges>false</showAggregatedChanges>
+      <aggregatedChangesGroupingPattern></aggregatedChangesGroupingPattern>
+      <maxNumberOfVisiblePipelines>-1</maxNumberOfVisiblePipelines>
+      <regexpFirstJobs>
+        <se.diabol.jenkins.pipeline.DeliveryPipelineView_-RegExpSpec>
+          <regexp></regexp>
+          <showUpstream>false</showUpstream>
+        </se.diabol.jenkins.pipeline.DeliveryPipelineView_-RegExpSpec>
+      </regexpFirstJobs>
+      <linkToConsoleLog>false</linkToConsoleLog>
+      <description></description>
+    </se.diabol.jenkins.pipeline.DeliveryPipelineView>
+  </views>
+  <primaryView>all</primaryView>
+  <slaveAgentPort>-1</slaveAgentPort>
+  <label></label>
+  <crumbIssuer class="hudson.security.csrf.DefaultCrumbIssuer">
+    <excludeClientIPFromCrumb>false</excludeClientIPFromCrumb>
+  </crumbIssuer>
+  <nodeProperties/>
+  <globalNodeProperties/>
+</hudson>

@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4K5O4qfBG4mP90NLr8gtby4ZpLoa4pTTHbu6tGCaDGy5AAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAyBEgYx/az8JP2CoqrUktTiktIs3eyi/GwjfQCGeoh1ywAAAA==[0mprzetestuj-krok2" build number [8mha:////4AXM8u3yh2Q6dTbfHJmq38gHhvvPGcAU96Bl2krKnf6gAAAAoh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBnH9rPwk/YKiqtSS1OKS0izd7KL8bCN9cwDeMczfzAAAAA==[0m7
+originally caused by:
+ Started by upstream project "[8mha:////4LvvassrIdaRwqwjGFAsHXVwLNl71aHCzraLcFLP8pVTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+lVJpSmlWbrZRfnZhvoAMBl4tMcAAAA=[0mzbuduj-krok1" build number [8mha:////4DozlbGjVZ1uy2hwiFm8Qs77tf4Cj/1j4E4qG+sNcARHAAAAnh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLQIwSBmH9rPwk/aqk0pTSLN3sovxsQ30zAIYBJMXIAAAA[0m6
+ originally caused by:
+  Started by user [8mha:////4LYxus9Qh+KnJfJUaEfQQoRd1XGf2RYJ13pwubcJFWJ1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9xJTczDxDAA1fTarBAAAA[0mAdmin1
+Running as SYSTEM
+Building in workspace /home/student8/.jenkins/workspace/uruchom-krok3
+[uruchom-krok3] $ /bin/sh -xe /tmp/jenkins126868870736102889.sh
++ echo zrobione
+zrobione
+Finished: SUCCESS

@@ -1,0 +1,10 @@
+Started by upstream project "[8mha:////4LvvassrIdaRwqwjGFAsHXVwLNl71aHCzraLcFLP8pVTAAAAnR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAweoBn6WflJ+lVJpSmlWbrZRfnZhvoAMBl4tMcAAAA=[0mzbuduj-krok1" build number [8mha:////4Le3a7SVGxd6b1yMW6WayHBbp+2/8sgyXV3MPCVNGLZrAAAAoB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgYR/az8JP2qpNKU0izd7KL8bEN9Q2MAODV0F8kAAAA=[0m13
+originally caused by:
+ Started by user [8mha:////4LYxus9Qh+KnJfJUaEfQQoRd1XGf2RYJ13pwubcJFWJ1AAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/dLi1CL9xJTczDxDAA1fTarBAAAA[0mAdmin1
+Running as SYSTEM
+Building in workspace /home/student8/.jenkins/workspace/przetestuj-krok2
+[przetestuj-krok2] $ /bin/sh -xe /tmp/jenkins2418939587904207830.sh
+++ shuf -i 0-1 -n1
++ exit 1
+Build step 'Uruchom powłokę' marked build as failure
+Finished: FAILURE
